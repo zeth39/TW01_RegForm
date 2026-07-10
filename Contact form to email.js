@@ -16,7 +16,7 @@ function emailSend() {
    "Content-Type": "application/x-www-form-urlencoded"
   },
   body: new URLSearchParams({
-   apikey: "YOUR_API_KEY_HERE",
+   apikey: "EC1C1EF76E2356ACE64542972A94B02E06B48E3A1E5F9AE1BF672832CE6AC99FC91C911AB43E9B1430822D4CE5022371",
    subject: "New Contact Form Submission",
    from: "your_verified_email@example.com",
    to: "your_verified_email@example.com",
