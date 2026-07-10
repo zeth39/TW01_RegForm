@@ -31,12 +31,12 @@ function emailSend() {
     swal("Successful", "Email has been sent successfully!", "success");
    } else {
     swal("Error", "Failed to send email!", "error");
-    .error("Elastic Error:", data.error);
+    console.error("Elastic Error:", data.error);
    }
   })
   
   .catch(error => {
    swal("Error", "An unexpected error occurred!", "error");
-   .error("Fetch Error:", error);
+   console.error("Fetch Error:", error);
   });
 }
